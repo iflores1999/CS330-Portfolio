@@ -1,1 +1,11 @@
-# CS330-Portfolio
+# CS330 Portfolio
+
+## Project Artifacts
+The CRUD Python module from Project One, my Project Two Dashboard, and related documentation are all included in this repository. These projects show that I can create an interactive dashboard using Dash, link a MongoDB database to Python, and design database applications.
+## Reflection
+### How do you write programs that are maintainable, readable, and adaptable?
+By grouping code into distinct modules, giving variables and functions meaningful names, and adding comments where necessary, I create programs that are legible, maintainable, and flexible. I developed a distinct CRUD Python module for this project that managed every database function. As a result, the CRUD module handled the database connection and queries, leaving the dashboard to concentrate just on data presentation. The code was simpler to comprehend, test, and update when these duties were divided. Additionally, by reusing the CRUD module in subsequent projects that call for MongoDB database operations, development time can be reduced and redundant code can be eliminated.
+### How do you approach a problem as a computer scientist?
+I start by comprehending the needs of the client and dividing the project into smaller, more doable tasks. I created the database connection and CRUD procedures for the Grazioso Salvare project, incorporated them into the dashboard, and then tested each function to guarantee correct results. Compared to earlier projects, this one required the integration of several technologies, such as Python, MongoDB, PyMongo, and Dash, into a single, comprehensive solution. I'll keep employing a methodical approach in upcoming projects by meticulously preparing the database design, testing each component separately, and fine-tuning the program in accordance with user needs.
+### What do computer scientists do, and why does it matter?
+Computer scientists develop software solutions that assist businesses in making better decisions and resolving real-world issues. This study showed how data from animal shelters can be arranged and visualised using a dashboard, enabling Grazioso Salvare to swiftly determine which canines are appropriate for various rescue missions. The program increases productivity, facilitates well-informed decision-making, and aids the organization in more successfully carrying out its goal by offering precise data and interactive visualisations.
